@@ -1,0 +1,116 @@
+.left_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: rgb(82, 79, 79);
+    border-left: 0.5px solid #262726;
+    position: relative;
+}
+.right_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: rgb(82, 79, 79);
+    border-right: 0.5px solid #262726;
+    position: relative;
+}
+.scrollbar{
+    width: 7px;
+    height: 50px;
+    background-color: rgb(45, 41, 41);
+    position: absolute;
+    left: -4px;
+    bottom: 0;
+    border-radius: 10px;
+}
+.scrollbarRight{
+    width: 7px;
+    height: 50px;
+    background-color: rgb(45, 41, 41);
+    position: absolute;
+    right: -4px;
+    bottom: 0;
+    border-radius: 10px;
+ 
+}
+.left_heading p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.bold_letter{
+    font-weight: 700;
+    color: #1b7678;
+    font-size: 2rem;
+}
+.left_serviceimg{
+    height: 50vh;
+}
+.left_serviceimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.rightCard{
+    overflow: hidden;
+}
+.right_heading p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.card_main{
+    min-height: 60vh;
+    max-height: auto;
+    border: 2px solid red;
+    overflow: hidden;
+}
+@media screen and (max-width: 520px) {
+
+   .cardright{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .reversecol{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.left_serviceimg img{
+    width: 100%;
+    height: 90%;
+}
+.left_heading{
+
+    border-left:none;
+}
+.right_heading{
+
+    border-right: none;
+}
+.scrollbar{
+    display: none;
+}
+.scrollbarRight{
+    display: none;
+}
+
+  }
+  .left_image{
+    width: 18vw;
+    height: 60vh;
+    border: 7px solid white;
+    border-radius: 90px;
+    position: absolute;
+   
+    overflow: hidden;
+    z-index: 1;
+    padding: 10px;
+  }
+   .left_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 80px;
+  }

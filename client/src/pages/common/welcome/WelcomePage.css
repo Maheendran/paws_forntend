@@ -1,0 +1,104 @@
+.logo {
+  width: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.logo img {
+  width: 100%;
+}
+.highlight_first {
+  font-size: 5rem;
+  font-weight: 500;
+  color: var(--primary_color);
+}
+.left_welcome_side h1 {
+  font-size: 3.5rem;
+}
+.left_welcome_side {
+  height: 100vh;
+  flex-wrap: wrap;
+  position: relative;
+}
+.left_welcome_letter {
+  width: 100%;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.welcome_btn {
+  width: 95%;
+  height: 40px;
+  border: none;
+  background-color: var(--primary_color);
+  color: white;
+  border-radius: 30px;
+  margin-top: 1px;
+}
+.welcome_btn_main {
+  width: 140px;
+  margin: auto;
+  position: relative;
+}
+.dog_welcome_gif {
+  float: right;
+  width: 100px;
+  z-index: -1;
+}
+
+.welcome_btn_shadow {
+  width: 100%;
+  border: 2px solid var(--primary_color);
+  height: 40px;
+  position: absolute;
+  bottom: -0.4rem;
+  z-index: -1;
+  border-radius: 30px;
+}
+/* right side */
+.right_welcome_side {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.image_welcome_side {
+  width: 80%;
+  height: 400px;
+  position: absolute;
+  bottom: 0;
+  border-top-left-radius: 40%;
+  background-color: var(--primary_color);
+}
+.shadow_welcome_side {
+  width: 100%;
+  height: 430px;
+  position: absolute;
+  left: -1.5rem;
+  bottom: 0;
+  border-top-left-radius: 40%;
+  border: 2px solid var(--primary_color);
+}
+.image_welcome_side img {
+  width: 80%;
+  height: 430px;
+  position: absolute;
+  bottom: 0;
+  right: -2rem;
+}
+@media (max-width: 520px) {
+  .left_welcome_side {
+    height: 40vh;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .right_welcome_side {
+    height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+}

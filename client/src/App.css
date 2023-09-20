@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Caramel&family=Dancing+Script:wght@400;500&family=Mochiy+Pop+One&family=Nunito&family=PT+Sans&family=Poppins:ital,wght@0,400;0,800;1,400&family=Quattrocento:wght@400;700&family=Qwitcher+Grypen&family=Rancho&family=Righteous&family=Roboto+Mono:wght@500&family=Rubik+Gemstones&family=Rubik+Puddles&family=Russo+One&family=Satisfy&display=swap");
+
+:root {
+
+  --primary_color: #ac81ff;
+  --secondary_color: #a2d7f7;
+  --light_yellow: orange;
+  --primary_orange:#ffbe18
+}
+* {
+  font-family: "Caramel", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
+  /* font-family: 'Quattrocento', serif; */
+  /* font-family: 'Qwitcher Grypen', cursive; */
+  /* font-family: 'Rancho', cursive; */
+  /* font-family: 'Righteous', cursive; */
+  /* font-family: 'Roboto Mono', monospace; */
+  /* font-family: 'Rubik Gemstones', cursive; */
+  /* font-family: 'Rubik Puddles', cursive; */
+  /* font-family: 'Russo One', sans-serif; */
+  /* font-family: 'Satisfy', cursive; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

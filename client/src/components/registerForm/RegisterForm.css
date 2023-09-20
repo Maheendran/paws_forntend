@@ -1,0 +1,50 @@
+.register_btn{
+    background-color: var(--light_yellow);
+    color: black;
+  width: 100%;
+  margin: auto;
+}
+.registerform:hover{
+    background-color: rgb(255, 255, 255);
+}
+.registerform{
+    width: 35%;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 0.5s ease-in-out;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    padding-right: 30px;
+    background-color: rgba(255, 255, 255, 0.537);
+    backdrop-filter: blur(5px);
+}
+.user_registerform{
+    width:32%;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+padding-right: 30px;
+background-color: rgba(255, 255, 255, 0.537);
+backdrop-filter: blur(5px);
+transition: 0.5s ease-in-out;
+}
+.user_registerform:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.toggle_letter{
+cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.error_message{
+    color: red;
+    font-size: 0.7rem;
+}

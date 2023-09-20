@@ -1,0 +1,137 @@
+.chooseprofile_main {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.logo{
+  position: absolute;
+  left: 0;
+}
+.logo img{
+  width: 100px;
+}
+.bottom_chooseprofile_shadow {
+  width: 120%;
+  height: 400px;
+  background-color: #1e1e1e;
+  border-radius: 50%;
+  position: absolute;
+  left: -10%;
+  bottom: -35%;
+}
+.chooseprofile_row {
+  margin: auto;
+  width: 48%;
+  height: 300px;
+  position: absolute;
+  top: -50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.small_chooseProfile {
+  width: 23%;
+  height: 100%;
+  border: 3px solid var(--secondary_color);
+  border-radius: 250px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.small_chooseProfile:hover {
+  transform: scale(1.1);
+}
+.small_chooseProfile img {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  border-radius: 250px;
+}
+.big_chooseProfile {
+  width: 25%;
+  height: 110%;
+  margin-top: -2rem;
+  border: 3px solid var(--secondary_color);
+  border-radius: 150px;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  position: relative;
+  cursor: pointer;
+}
+.big_chooseProfile:hover {
+  transform: scale(1.1);
+}
+.big_chooseProfile img {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  border-radius: 250px;
+}
+.chooseprofile_title {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: -3rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  transition: 0.5s ease-in-out;
+  padding: 10px;
+}
+.small_chooseProfile:hover .chooseprofile_title {
+  bottom: 0rem;
+  margin: auto;
+  backdrop-filter: blur(5px);
+  background-color: rgba(60, 61, 63, 0.576);
+}
+.big_chooseProfile:hover .chooseprofile_title {
+  bottom: 0rem;
+  margin: auto;
+  backdrop-filter: blur(5px);
+  background-color: rgba(60, 61, 63, 0.576);
+}
+@media (max-width: 520px) {
+  .chooseprofile_main {
+    height: 80vh;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .bottom_chooseprofile_shadow {
+    width: 120%;
+    height: 400px;
+    background-color: #1e1e1e;
+    border-radius: 50%;
+    position: absolute;
+    left: -10%;
+    bottom: -35%;
+  }
+
+  .chooseprofile_row {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    width: 108%;
+    height: 400px;
+    position: absolute;
+    top: -80%;
+    right: 0;
+    display: flex;
+    left: 0;
+    justify-content: start;
+    overflow-x: scroll;
+  }
+  .big_chooseProfile {
+    min-width: 50%;
+    width: 50%;
+  }
+  .small_chooseProfile {
+    min-width: 40%;
+    width: 40%;
+  }
+}

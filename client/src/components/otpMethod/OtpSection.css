@@ -1,0 +1,13 @@
+.otp_btn {
+  background-color: var(--primary_color);
+}
+.otp_btn:hover {
+  background-color: var(--primary_color);
+}
+.warninttime {
+  color: red;
+}
+
+.goodtime {
+  color: var(--primary_color);
+}

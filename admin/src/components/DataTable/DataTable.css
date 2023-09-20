@@ -1,0 +1,7 @@
+.table_image {
+  overflow: hidden;
+}
+.table_image img {
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,95 @@
+.homepage {
+  width: 100%;
+  height: 180vh;
+  /* background-image: url("../../../../public/assests/Vector 1.png"); */
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover; */
+  /* background-position: top; */
+  /* position: absolute; */
+  overflow: hidden;
+}
+.homepage_bg{
+  width: 100%;
+  height:180vh;
+  position: absolute;
+   opacity: 0.5; 
+
+}
+.bg_paws{
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  rotate: 180deg;
+  opacity: 0.7;
+}
+.bg_violet_paws{
+  position: absolute;
+ 
+  right: 0;
+  top: 20%;
+  opacity: 0.7;
+}
+.homepage_bg>img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.user_banner {
+  height: 50vh;
+}
+.inner_carousel {
+  height: 50vh;
+}
+.inner_carousel img {
+  width: 100%;
+  height: 100%;
+}
+.user_banner img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ================== */
+.card_box{
+  height: 60vh;
+  /* border: 1px solid; */
+  position: relative;
+}
+.card_btn{
+  width: 50%;
+  height: 70px;
+  background-color:
+var( --primary_orange);
+  border: 6px solid  rgb(255, 255, 255);
+  border-radius: 50px;
+  padding: 10px;
+  color: white;
+  font-size: 1.3rem;
+}
+.card_btn_clinic{
+  width: 70%;
+  height: 70px;
+  background-color:
+var( --primary_orange);
+  border: 6px solid white;
+  border-radius: 50px;
+  color: white;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.card_clinic_img{
+  width: 48%;
+  height: 55vh;
+  border: 7px solid white;
+  border-radius: 80px;
+  overflow: hidden;
+  padding: 10px;
+  margin: auto;
+}
+.card_clinic_img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 80px;
+}

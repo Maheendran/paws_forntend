@@ -1,0 +1,70 @@
+.register_main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.walkdog {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: -10rem;
+  right: 0;
+  z-index: -1;
+  animation: walking 40s linear infinite;
+}
+@keyframes walking {
+  10% {
+    transform: translateX(-10vw) translateY(-2.5rem) rotate(10deg);
+  }
+  25% {
+    transform: translateX(-30vw) translateY(-4rem) rotate(15deg);
+  }
+  40% {
+    transform: translateX(-45vw) translateY(-5rem) rotate(13deg);
+  }
+  55% {
+    transform: translateX(-55vw) translateY(-4rem) rotate(15deg);
+  }
+  70% {
+    transform: translateX(-70vw) translateY(-5rem) rotate(-10deg);
+  }
+  85% {
+    transform: translateX(-85vw) translateY(-3rem) rotate(-15deg);
+  }
+  100% {
+    transform: translateX(-100vw) translateY(-0.5rem) rotate(-13deg);
+  }
+}
+.walkdog img {
+  width: 100%;
+  height: 100%;
+}
+
+.fence {
+  width: 25vw;
+  height: 40vh;
+  position: absolute;
+  left: 5rem;
+  top: -19vh;
+  z-index: -1;
+  rotate: -13deg;
+}
+.fence img {
+  width: 100%;
+  height: 100%;
+}
+.fence_right {
+  width: 25vw;
+  height: 40vh;
+  position: absolute;
+  right: 5rem;
+  top: -13vh;
+  z-index: -1;
+  rotate: 195deg;
+}
+.fence_right img {
+  width: 100%;
+  height: 100%;
+}

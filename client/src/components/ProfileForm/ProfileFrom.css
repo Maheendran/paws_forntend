@@ -1,0 +1,44 @@
+.profile_form{
+    background-color: rgba(226, 211, 211, 0.233);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ backdrop-filter: blur(5px);
+ position: relative;
+ flex-wrap: wrap;
+}
+.profile_edit_btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid white;
+    right: 0;
+    top: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 11;
+}
+.edit_icon{
+    cursor: pointer;
+}
+.left_side_hole{
+    width: 20px;
+    height: 90%;
+    position: absolute;
+    left: -25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.holes{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(240, 196, 34);
+    border-radius: 50%;
+}
